@@ -39,7 +39,8 @@ You can use this server for a variety of tasks, such as web hosting, CI/CD pipel
 
 ## Directory Structure
 
-```plaintext
+```
+plaintext
 raspberry-pi-server/
 ├── docs/                  # Documentation and guides
 │   ├── setup.md           # Guide for setting up the Raspberry Pi
@@ -56,6 +57,8 @@ raspberry-pi-server/
 ├── README.md              # Project documentation
 └── LICENSE                # License for the project
 
+```
+
 Getting Started
 
 To get started with the Raspberry Pi Server project, follow the steps below:
@@ -71,28 +74,31 @@ Installation Guide
     Flash Ubuntu Server onto your microSD card using tools like Balena Etcher.
 
     Boot the Raspberry Pi and log in via SSH:
+```
 
 ssh ubuntu@<raspberry_pi_ip>
-
+```
+```
 Default username: ubuntu, password: ubuntu.
-
+```
 Update the system:
 
+``` 
+
 sudo apt update && sudo apt upgrade -y
-
+```
 Install Docker:
-
+```
 sudo apt install -y docker.io
-
+```
 Verify Docker installation:
-
+```
 docker --version
-
+```
 Clone the repository:
-
-git clone https://github.com/<your_username>/raspberry-pi-server.git
-cd raspberry-pi-server
-
+```
+git clone https://github.com/RonanJoel/raspberry-pi-server..git
+``` 
 Build the Docker services:
 
     docker-compose up -d
