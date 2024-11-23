@@ -17,6 +17,7 @@ Whether you're a developer, a student, or a hobbyist looking to explore the powe
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Advanced Extension](#advanced-extension)
 
 ## Overview
 The **Raspberry Pi Server** project is a complete guide to setting up a robust server on a Raspberry Pi. With step-by-step instructions, reusable Docker configurations, and monitoring setups, you'll be able to deploy applications and services quickly and easily on your Raspberry Pi.
@@ -54,7 +55,6 @@ raspberry-pi-server/
 ├── .gitignore             # Files to ignore in the repository
 ├── README.md              # Project documentation
 └── LICENSE                # License for the project
-```
 
 Getting Started
 
@@ -141,3 +141,13 @@ How to contribute:
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+Acknowledgements
+
+    Thanks to the Raspberry Pi community for making this powerful tool available for DIY projects.
+    Docker, NGINX, Prometheus, and Grafana are incredible tools for managing modern infrastructure.
+
+Advanced Extension
+Want to implement a complete DevOps platform?
+
+Check out our advanced repository: Raspberry DevOps Platform.
+
